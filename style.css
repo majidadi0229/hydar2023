@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+}
+section{
+    width: 50vw;
+    height: 100%;
+    margin-inline: auto;
+    background-color: white;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin: 10px;
+}
+header a{
+    text-decoration: none;
+    gap: 10px;
+
+}
+span{
+    color: gold;
+    text-transform: uppercase;
+}
+aside{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+aside .collide{
+    display: flex;
+    margin-top: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+aside .text i{
+    width: 10%;
+    height: 20%;
+    border: 1px solid;
+    border-radius: 70%;
+margin-top: 2rem;
+padding: 10px;
+}
+nav {
+    width: 50vw;
+    height: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+ul {
+    width: 50ww;
+    height: 50vh;
+    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-size: cover;
+    background-position: 0;
+    background-repeat: repeat;
+    filter:saturate(3)
+}
+.trending{
+    position: relative;
+    left: 20rem;
+    top: 13rem;
+    font-size: 22px;
+}
+.trending > .left{
+    margin-left: 13rem;
+    font-size: smaller;
+}
+.trending > i{
+    width: 5%;
+    height: 5%;
+    border: 1px solid black;
+    border-radius: 80%;  
+      margin-left: 15rem;
+      padding: 8px;
+      background-color: gold;
+      color: black;
+}
+ .circle > li{
+    
+    width: 1%;
+    height: 1%;
+    border: 1px solid;
+    border-radius: 100%;
+padding: 10px;
+display: inline-block;
+margin-top: 5px;
+background-color: gold;
+
+}
+article {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+article > div{
+    width: 25vw;
+    height: 100%;
+    
+}
+article > div >p {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+ button{
+    padding: 5px;
+    background-color: gold;
+}
+abbr{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: gold;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+
+}
+main{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main > div{
+    width: 25vw;
+    height: 100%;
+}
+main > .img-2 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+}
+main > div > .img {
+    width: 10vw;
+    height: 30vh;
+    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-size: cover;
+}
+main > div > .last{
+    width: 5vw;
+    height: 30vh;
+    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-size: cover;
+}
+main > div > p{
+    padding: 15px;
+}
+label {
+    width: 50vw;
+    height: 30%;
+   
+}
+label > p{
+margin-top: 2rem;
+border-bottom: 1px solid black;
+}
+figure{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+}
+figure > .border {
+    width: 5%;
+    height: 10%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gold;
+}
+figure > .border > i{
+   
+    color: white;
+    align-items: center;
+}
+font{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+font > div{
+    width: 60vw;
+    height: 30vh;
+    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-size: cover;
+}
+font > .end{
+    width: 45vw;
+    height: 30vh;
+    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-size: cover;
+}
+form{
+    width: 50vw;
+    height: 100%;
+    display: block;
+    margin-top: 2rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+form > div{
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+form > .art{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+form > .art > div{
+    display: flex;
+    gap: 0.5rem;
+}
+form > div > h3 {
+    font-size: 40px; 
+}
+head{
+    width: 50vw;
+    height: 100%;
+    
+
+}
+.testimonial{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 2rem;
+}
+.testimonial > div >  h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+head > .community{
+width: 50vw;
+height: 100%;
+}
+.community {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 2rem;
+}
+.community  > :nth-child(1){
+    width: 10%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+.community > :nth-child(2){
+    width: 60%;
+    height: 50%;
+    border: 1px solid black;
+    padding: 24px;
+background-color: lightgrey;
+}
+.community > :nth-child(3){
+    width: 20%;
+    height: 40%;
+    border: 1px solid black;
+    padding: 60px;
+    background-color: black
+}
+b{
+    font-size: 4rem;
+}
+hr{
+    width:40%;
+    height: 10%;
+    margin-left: 4rem;
+    font-weight: bolder;
+}
+
+fieldset{
+    width: 50vw;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: gold;
+}
+footer{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 3rem;
+    border-top: 1px solid black;
+}
+footer > div > ol > li{
+text-align: justify;
+border-bottom: 1px solid black; 
+list-style: none;
+margin-top: 1rem;
+padding: 0.5rem;
+}
+footer > div:nth-child(1){
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.the-end {
+    width: 25vw;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    
+}
