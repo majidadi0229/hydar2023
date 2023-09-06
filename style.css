@@ -63,7 +63,7 @@ nav {
 ul {
     width: 50ww;
     height: 50vh;
-    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-image: url("./media/img/1.jpg");
     background-size: cover;
     background-position: 0;
     background-repeat: repeat;
@@ -110,7 +110,6 @@ article {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 10px;
-
 }
 article > div{
     width: 25vw;
@@ -158,13 +157,13 @@ main > .img-2 {
 main > div > .img {
     width: 10vw;
     height: 30vh;
-    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-image: url("./media/img/6.jpg");
     background-size: cover;
 }
 main > div > .last{
     width: 5vw;
     height: 30vh;
-    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-image: url("./media/img/7.jpg");
     background-size: cover;
 }
 main > div > p{
@@ -180,7 +179,7 @@ margin-top: 2rem;
 border-bottom: 1px solid black;
 }
 figure{
-display: flex;
+display: flex;`
 align-items: center;
 justify-content: space-around;
 padding: 20px;
@@ -206,13 +205,13 @@ font{
 font > div{
     width: 60vw;
     height: 30vh;
-    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-image: url("./media/img/3.jpg");
     background-size: cover;
 }
 font > .end{
     width: 45vw;
     height: 30vh;
-    background-image: url("./media/img/Screenshot\ \(2\).png");
+    background-image: url("./media/img/5.jpg");
     background-size: cover;
 }
 form{
